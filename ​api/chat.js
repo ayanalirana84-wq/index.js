@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         "X-Title": "Vercel Test Chatbot"
       },
       body: JSON.stringify({
-        model: "openrouter/free",
+        model: "liquid/lfm-3-1.7b:free",
         messages: [{ role: "user", content: prompt }]
       })
     });
